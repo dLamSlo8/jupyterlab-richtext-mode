@@ -170,8 +170,8 @@
         "signature": "772ba97288b4f6c1d8a4fe266ef1c56a419f9de3ceed779065c62da9c4eeb0c7"
       },
       "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/src/prosemirror/prosemirror-scripts.ts": {
-        "version": "e4a1423b417f0d21c651ea852be2812c938d6206a668e97121c77ca128aed3bd",
-        "signature": "9b9d793bffe43f476f01ac63a75d9b192f23265f3f46387e785d24ed75c36bda"
+        "version": "c21e3cf26404cc8b9d80d349de14ee5c4a4e269d72a358ac95a642b5d9842bbe",
+        "signature": "09d34de6ae11241d35aa3807106102dca14aff1c308523e92c80cf31915bf448"
       },
       "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/node_modules/@phosphor/coreutils/lib/json.d.ts": {
         "version": "9d441989d1cbb52939625e57621620524bf19c3c223f01007941ecd10335d0d1",
@@ -1178,8 +1178,24 @@
         "signature": "51a5e8f4b51f1cd1e0ab06d726d8c28cd4468488006748febfb293797986c9f6"
       },
       "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/src/index.tsx": {
-        "version": "8b3eda61736d70b9aedaf3be0dfa2d37f606f0cc1d86fb0dec10e8557cd00063",
+        "version": "59d27f38ee91a697098751212d67d8d493dcfdd3bb332d007cd1653f3b517c23",
         "signature": "c4fddde8ca2be896263c08764a87de496a45a52fb600e96b9f744ebcc7a2514e"
+      },
+      "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/node_modules/@types/jest-diff/index.d.ts": {
+        "version": "6ecb326999da47034eff85653423767152858fbb7acf0433f7603c9abf1e3f06",
+        "signature": "6ecb326999da47034eff85653423767152858fbb7acf0433f7603c9abf1e3f06"
+      },
+      "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/node_modules/jest-diff/build/types.d.ts": {
+        "version": "71ba0678a3c647f5c0706ae975c031ace0d464e60f9ce56eaa7f1678d065aab7",
+        "signature": "71ba0678a3c647f5c0706ae975c031ace0d464e60f9ce56eaa7f1678d065aab7"
+      },
+      "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/node_modules/jest-diff/build/index.d.ts": {
+        "version": "b2c5ded6320c45c5d3e1c481c5d2808adf24dd1a59ffc944b72a418e95da5b17",
+        "signature": "b2c5ded6320c45c5d3e1c481c5d2808adf24dd1a59ffc944b72a418e95da5b17"
+      },
+      "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/node_modules/@types/jest/index.d.ts": {
+        "version": "9dd180752ee664a74a525a05194afdd787295e56634b8adbc8525d7c0af64e96",
+        "signature": "9dd180752ee664a74a525a05194afdd787295e56634b8adbc8525d7c0af64e96"
       },
       "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/node_modules/@types/node/globals.d.ts": {
         "version": "e4461b72726848da76a31153b6b01af5e0be3b08dbfa2ec5741ad302eb20f2ed",
@@ -1378,7 +1394,11 @@
       "strictNullChecks": false,
       "target": 4,
       "types": [
+        "jest",
         "node"
+      ],
+      "typeRoots": [
+        "/Users/dlam12/Documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/node_modules/@types"
       ],
       "configFilePath": "/Users/dlam12/Documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/tsconfig.json"
     },
@@ -3729,6 +3749,25 @@
         "/users/dlam12/node_modules/@jupyterlab/cells/lib/index.d.ts",
         "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/src/factory.tsx",
         "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/src/widget.tsx",
+        "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/node_modules/@types/node/util.d.ts",
+        "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/node_modules/@types/jest-diff/index.d.ts": [
+        "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/node_modules/@types/node/util.d.ts",
+        "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/node_modules/jest-diff/build/types.d.ts": [
+        "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/node_modules/@types/node/util.d.ts",
+        "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/node_modules/jest-diff/build/index.d.ts": [
+        "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/node_modules/jest-diff/build/types.d.ts",
+        "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/node_modules/@types/node/util.d.ts",
+        "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/node_modules/@types/jest/index.d.ts": [
+        "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/node_modules/jest-diff/build/index.d.ts",
+        "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/node_modules/@types/jest-diff/index.d.ts",
         "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/node_modules/@types/node/util.d.ts",
         "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -6306,6 +6345,25 @@
         "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/node_modules/@jupyterlab/application/lib/index.d.ts",
         "/users/dlam12/node_modules/@jupyterlab/notebook/lib/index.d.ts"
       ],
+      "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/node_modules/@types/jest-diff/index.d.ts": [
+        "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/node_modules/@types/node/util.d.ts",
+        "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/node_modules/jest-diff/build/types.d.ts": [
+        "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/node_modules/@types/node/util.d.ts",
+        "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/node_modules/jest-diff/build/index.d.ts": [
+        "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/node_modules/jest-diff/build/types.d.ts",
+        "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/node_modules/@types/node/util.d.ts",
+        "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/node_modules/@types/jest/index.d.ts": [
+        "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/node_modules/jest-diff/build/index.d.ts",
+        "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/node_modules/@types/jest-diff/index.d.ts",
+        "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/node_modules/@types/node/util.d.ts",
+        "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/node_modules/@types/node/globals.d.ts": [
         "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/node_modules/@types/node/util.d.ts",
         "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/node_modules/@types/node/ts3.2/util.d.ts"
@@ -6718,6 +6776,7 @@
       "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/src/prosemirror/prosemirror-schema.ts",
       "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/src/prosemirror/markdown.ts",
       "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/node_modules/@types/prosemirror-commands/index.d.ts",
+      "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/src/richtextmenu.tsx",
       "/users/dlam12/node_modules/@jupyterlab/apputils/node_modules/@phosphor/coreutils/lib/index.d.ts",
       "/users/dlam12/node_modules/@jupyterlab/apputils/node_modules/@jupyterlab/services/lib/config/index.d.ts",
       "/users/dlam12/node_modules/@jupyterlab/observables/lib/index.d.ts",
@@ -6868,6 +6927,10 @@
       "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/node_modules/@types/react-dom/index.d.ts",
       "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/src/widget.tsx",
       "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/src/index.tsx",
+      "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/node_modules/@types/jest-diff/index.d.ts",
+      "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/node_modules/jest-diff/build/types.d.ts",
+      "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/node_modules/jest-diff/build/index.d.ts",
+      "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/node_modules/@types/jest/index.d.ts",
       "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/node_modules/@types/node/globals.d.ts",
       "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/node_modules/@types/node/assert.d.ts",
       "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/node_modules/@types/node/async_hooks.d.ts",
@@ -6911,8 +6974,7 @@
       "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/node_modules/@types/node/base.d.ts",
       "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/node_modules/@types/node/ts3.2/util.d.ts",
       "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/node_modules/@types/node/ts3.2/globals.d.ts",
-      "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/node_modules/@types/node/ts3.2/index.d.ts",
-      "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/src/richtextmenu.tsx"
+      "/users/dlam12/documents/jupyter-projects/rich-text-mode/jupyterlab-richtext-mode/rich-text-editor/node_modules/@types/node/ts3.2/index.d.ts"
     ]
   },
   "version": "3.5.3"

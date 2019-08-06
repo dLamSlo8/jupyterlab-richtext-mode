@@ -351,8 +351,7 @@ namespace Private {
                     initValue
                 ),
                 plugins: [
-                    keymap(baseKeymap),
-                    keymap()
+                    keymap(baseKeymap)
                 ]
             }),
             // dispatchTransaction(transaction: Transaction) {

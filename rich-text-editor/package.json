@@ -26,6 +26,7 @@
     "url": "https://github.com/djupytercalpoly/jupyterlab-richtext-mode.git"
   },
   "scripts": {
+    "test": "jest",
     "build": "tsc",
     "clean": "rimraf lib && rimraf tsconfig.tsbuildinfo",
     "prepare": "npm run clean && npm run build",
@@ -35,6 +36,7 @@
     "@jupyterlab/application": "^1.0.1",
     "@jupyterlab/mainmenu": "^1.0.1",
     "@types/immutable": "^3.8.7",
+    "@types/jest": "^24.0.17",
     "@types/prosemirror-commands": "^1.0.1",
     "@types/prosemirror-keymap": "^1.0.1",
     "@types/prosemirror-markdown": "^1.0.2",
@@ -42,6 +44,7 @@
     "@types/prosemirror-schema-list": "^1.0.1",
     "@types/prosemirror-state": "^1.2.3",
     "@types/react-dom": "^16.8.5",
+    "@types/react-test-renderer": "^16.8.3",
     "jupyterlab": "^0.17.5",
     "markdown-it": "^9.0.1",
     "perf_hooks": "0.0.1",
@@ -52,12 +55,29 @@
     "prosemirror-schema-basic": "^1.0.1",
     "prosemirror-state": "^1.2.3",
     "prosemirror-view": "^1.9.11",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "react-test-renderer": "^16.8.6"
   },
   "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-es2017": "^7.0.0-beta.53",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.3.3",
     "@types/node": "^12.6.8",
+    "babel-jest": "^24.8.0",
+    "jest": "^24.0.2",
     "rimraf": "^2.6.1",
+    "ts-jest": "^24.0.2",
     "typescript": "~3.5.2"
+  },
+  "resolutions": {
+    "@types/react": "16.8.23"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.ts"
+    }
   },
   "sideEffects": [
     "style/*.css"
