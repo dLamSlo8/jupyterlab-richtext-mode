@@ -510,7 +510,7 @@ export default class RichTextMenu extends React.Component<{view: EditorView,
      */
     render() {
 
-        const tooltips = ["bold", "italic", "underline", "strikethrough", "text-styles", "bulleted-list", "numbered-list", "blockquote", "code", "link", "image"];
+        const tooltips = ["", "Bold text", "Italicize text", "Underline text", "Strikethrough text", "Make selected text a predefined style", "", "Make a bulleted list", "Make a numbered list", "Make a block quote", "Format text to look like code", "", "Insert link", "Insert image"];
         const marks = ["stick", "strong", "em", "underline", "strikethrough", "heading", "stick", "bullet_list", "ordered_list", "blockquote", "code", "stick", "link", "image"];
         return (
             <div className="menu">

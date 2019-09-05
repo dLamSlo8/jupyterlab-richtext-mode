@@ -61,10 +61,10 @@ export class ImageMenu extends React.Component<{handleImgUpload: (fileUrl: unkno
                 <div className="editor-menu">  
                     <MenuHeader name="image" />
                     <div className="jp-scribe-menu-content">
-                        <span className="linkToImage" onClick={this.handleLinkClick}>Link to image</span>
+                        <span className="linkToImage" onClick={this.handleLinkClick} title="Insert image from the web">Link to image</span>
                         <form>
                             <span style={{cursor: "pointer"}} onClick={() => document.getElementById('file1').click()}>Upload image</span>
-                            <input type="file" id="file1" style={{display: "none"}} onChange={this.handleChange} />
+                            <input type="file" id="file1" style={{display: "none"}} onChange={this.handleChange} title="Upload image from computer" />
                         </form>
                     </div>
 

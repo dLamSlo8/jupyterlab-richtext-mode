@@ -144,7 +144,6 @@ export default class MenuItem extends React.Component<{format: string, active: b
      * Renders the menu item component.
      */
     render() {
-        console.log(this.getImgSrc());
         if (this.props.cancelled) {
             return (
                 <img 

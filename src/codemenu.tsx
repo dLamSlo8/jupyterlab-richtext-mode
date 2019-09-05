@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import MenuHeader from "./menuheader";
 import { Widget } from "@phosphor/widgets";
 import { CodeLanguageMenuItem } from "./languagemenuitem";
-import { HoverBox } from "@jupyterlab/apputils";
+// import { HoverBox } from "@jupyterlab/apputils";
 import FuzzySet  from "fuzzyset";
 import modes from "./modes";
 export class CodeMenu extends React.Component<{handleInlineCode: (e: React.SyntheticEvent) => void,
@@ -24,24 +24,25 @@ export class CodeMenu extends React.Component<{handleInlineCode: (e: React.Synth
         this.handleLanguageSelect = this.handleLanguageSelect.bind(this);
     }
 
-    componentDidUpdate(prevProps: any, prevState: any, snapshot: any) {
-        if (this.state.isBlockOption === true && (this.state.isBlockOption !== prevState.isBlockOption)) {
-            let input = (document.querySelector("#languageInput") as HTMLInputElement);
-            console.log(input);
-            let rect = input.getBoundingClientRect();
-            let style = window.getComputedStyle(this.props.languageWidget.node);
-            HoverBox.setGeometry({
-                anchor: rect,
-                host: input,
-                minHeight: 50,
-                maxHeight: 500,
-                node: this.props.languageWidget.node,
-                privilege: "below",
-                style
-            })
-        }
+    // componentDidUpdate(prevProps: any, prevState: any, snapshot: any) {
+    //     if (this.state.isBlockOption === true && (this.state.isBlockOption !== prevState.isBlockOption)) {
+    //         let input = (document.querySelector("#languageInput") as HTMLInputElement);
+    //         console.log(input);
+    //         let rect = input.getBoundingClientRect();
+    //         let style = window.getComputedStyle(this.props.languageWidget.node);
+    //         HoverBox.setGeometry({
+    //             anchor: rect,
+    //             host: input,
+    //             minHeight: 50,
+    //             maxHeight: 500,
+    //             node: this.props.languageWidget.node,
+    //             privilege: "below",
+    //             style
+    //         })
+    //     }
 
-    }
+    // }
+
     handleLanguageChange(e: React.SyntheticEvent) {
 
         let target = (e.target as HTMLInputElement);
@@ -68,8 +69,10 @@ export class CodeMenu extends React.Component<{handleInlineCode: (e: React.Synth
                 <div className="editor-menu">  
                     <MenuHeader name="code" />
                     <div className="jp-scribe-menu-content">
-                        <p className="linkToImage" onClick={this.props.handleInlineCode}>Inline code</p>
-                        <p className="linkToImage" onClick={() => {this.setState({isBlockOption: true})}}>Code block</p>
+                        <p className="linkToImage" onClick={this.props.handleInlineCode}
+                        title="Format text to look like code in the same line">Inline code</p>
+                        <p className="linkToImage" onClick={() => {this.setState({isBlockOption: true})}}
+                        title="Format text to look like a block of code">Code block</p>
                     </div>
                 </div>
             )

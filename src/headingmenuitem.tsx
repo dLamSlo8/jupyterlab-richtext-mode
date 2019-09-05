@@ -16,11 +16,11 @@ export default class HeadingMenuItem extends React.Component<{level: number, act
             case 2:
                 return "Subtitle";
             case 3: 
-                return "Heading 1";
+                return "Section 1";
             case 4: 
-                return "Heading 2";
+                return "Section 2";
             case 5:
-                return "Heading 3";
+                return "Section 3";
             case 6:
                 return "Caption";
         }

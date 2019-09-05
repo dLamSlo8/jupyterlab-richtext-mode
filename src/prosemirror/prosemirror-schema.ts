@@ -236,6 +236,7 @@ export const schema = new Schema({
     md_code_block: {
       parseDOM: [{tag: "span"}],
       toDOM() { return ["span"]}
-    }
+    },
+    
   }
 })
